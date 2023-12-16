@@ -67,6 +67,10 @@ If you encounter any issues or have suggestions, please [open an issue](https://
 
 I welcome feedback and suggestions from users to improve the application's functionality and user experience.
 
+## Acknowledgments
+
+Big thanks to [@GoIT](https://goit.global/us/) for their valuable guidance and support during the completion of the 2nd Node.js homework. 
+
 ## Languages and Tools:
 
 <div align="center">  
