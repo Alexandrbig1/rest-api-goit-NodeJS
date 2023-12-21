@@ -53,11 +53,11 @@ Follow these instructions to set up the project on your local machine for develo
     
 ## API Endpoints
 
-- **GET /contacts:** Retrieve all contacts.
-- **GET /contacts/:contactId:** Retrieve a specific contact by ID.
-- **POST /contacts:** Add a new contact.
-- **PUT /contacts/:contactId:** Update an existing contact.
-- **DELETE /contacts/:contactId:** Delete an existing contact.
+- **GET /api/contacts:** Retrieve all contacts.
+- **GET /api/contacts/:contactId:** Retrieve a specific contact by ID.
+- **POST /api/contacts:** Add a new contact.
+- **PUT /api/contacts/:contactId:** Update an existing contact.
+- **DELETE /api/contacts/:contactId:** Delete an existing contact.
 
 ## Issues
 
