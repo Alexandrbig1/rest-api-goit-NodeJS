@@ -12,12 +12,15 @@ This repository contains the backend code for a simple ![Node.js](https://img.sh
 ## Homework3: Node.js, MongoDB, and Mongoose CRUD Backend
 
 The third homework assignment builds upon the previous project, now incorporating MongoDB with Mongoose for data persistence. The application manages contacts stored in a MongoDB database and allows users to perform various operations on the contacts. The supported CRUD operations include:
-- **Get All Contacts (GET):** Retrieve a list of all contacts.
-- **Get Contact by ID (GET):** Retrieve a specific contact by its ID.
-- **Add New Contact (POST):** Add a new contact to the list.
-- **Update Existing Contact (PUT):** Update an existing contact's information.
-- **Patch Existing Contact (PATCH):** Partially update an existing contact's information.
-- **Delete Existing Contact (DELETE):** Remove an existing contact from the list.
+
+## API Endpoints
+
+- **(GET) `/api/contacts`:** Retrieve a list of all contacts.
+- **(GET) `/api/contacts/`:contactId:** Retrieve a specific contact by ID.
+- **(POST) `/api/contacts`:** Add a new contact to the list.
+- **(PUT) `/api/contacts/`:contactId:** Update an existing contact's information.
+- **(PATCH) `/api/contacts/`:contactId/favorite:** Partially update an existing contact's information.
+- **(DELETE) `/api/contacts/`:contactId:** Delete an existing contact from the list.
 
 ## Technologies Used
 
@@ -25,44 +28,6 @@ The third homework assignment builds upon the previous project, now incorporatin
 - ![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 - ![Mongoose](https://img.shields.io/badge/Mongoose-880000.svg?style=for-the-badge&logo=mongoose&logoColor=white)
 - ![JSON](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)
-
-## Getting Started
-
-Follow these instructions to set up the project on your local machine for development and testing purposes.
-
-## Requirements
-
-- Node.js installed
-- NPM (Node Package Manager) installed
-
-## Installing
-
-1. Clone the repository to your local machine.
-    ``` bash
-    git clone https://github.com/Alexandrbig1/nodejs-rest-api-homework.git
-1. Navigate to the project folder.
-    ``` bash
-    cd nodejs-rest-api-homework
-1. Install dependencies.
-    ``` bash
-    npm install
-
-## Running the Application
-- **Production Mode:**
-    ``` bash
-    npm start
-- **Development Mode with Nodemon:**
-    ``` bash
-    npm run dev
-    
-## API Endpoints
-
-- **GET /api/contacts:** Retrieve all contacts.
-- **GET /api/contacts/:contactId:** Retrieve a specific contact by ID.
-- **POST /api/contacts:** Add a new contact.
-- **PUT /api/contacts/:contactId:** Update an existing contact.
-- **PATCH /api/contacts/:contactId/favorite:** Partially update an existing contact's information.
-- **DELETE /api/contacts/:contactId:** Delete an existing contact.
 
 ## Issues
 
