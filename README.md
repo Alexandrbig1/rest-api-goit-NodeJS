@@ -11,11 +11,14 @@ This repository contains a ![Alt text](https://img.shields.io/badge/Node.js-3399
 ## Homework 2: HTTP Requests and JSON Contact Management
 
 The second homework assignment focuses on working with HTTP requests in a ![Alt text](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) environment. The project involves managing a ![Alt text](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) file containing contacts. The application allows performing various operations on the contacts, including:
-- **Get All Contacts (GET):** Retrieve a list of all contacts.
-- **Get Contact by ID (GET):** Retrieve a specific contact by its ID.
-- **Add New Contact (POST):** Add a new contact to the list.
-- **Update Existing Contact (PUT):** Update an existing contact's information.
-- **Delete Existing Contact (DELETE):** Remove an existing contact from the list.
+
+## API Endpoints
+
+- **(GET) `/api/contacts`:** Retrieve a list of all contacts.
+- **(GET) `/api/contacts/`:contactId:** Retrieve a specific contact by ID.
+- **(POST) `/api/contacts`:** Add a new contact to the list.
+- **(PUT) `/api/contacts/`:contactId:** Update an existing contact's information.
+- **(DELETE) `/api/contacts/`:contactId:** Delete an existing contact from the list.
 
 ## Technologies Used
 
@@ -24,43 +27,7 @@ The second homework assignment focuses on working with HTTP requests in a ![Alt 
 - **Cors:** Middleware for handling Cross-Origin Resource Sharing in Express.js applications.
 - **Morgan:** HTTP request logger middleware for Express.js.
 - **UUID:** Used for generating unique IDs for various purposes.
-
-## Getting Started
-
-Follow these instructions to set up the project on your local machine for development and testing purposes.
-
-## Requirements
-
-- Node.js installed
-- NPM (Node Package Manager) installed
-
-## Installing
-
-1. Clone the repository to your local machine.
-    ``` bash
-    git clone https://github.com/Alexandrbig1/nodejs-rest-api-homework.git
-1. Navigate to the project folder.
-    ``` bash
-    cd nodejs-rest-api-homework
-1. Install dependencies.
-    ``` bash
-    npm install
-
-## Running the Application
-- **Production Mode:**
-    ``` bash
-    npm start
-- **Development Mode with Nodemon:**
-    ``` bash
-    npm run dev
-    
-## API Endpoints
-
-- **GET /api/contacts:** Retrieve all contacts.
-- **GET /api/contacts/:contactId:** Retrieve a specific contact by ID.
-- **POST /api/contacts:** Add a new contact.
-- **PUT /api/contacts/:contactId:** Update an existing contact.
-- **DELETE /api/contacts/:contactId:** Delete an existing contact.
+- ![JSON](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white): Data interchange format used in the project.
 
 ## Issues
 
