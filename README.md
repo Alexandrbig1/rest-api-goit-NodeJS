@@ -54,6 +54,7 @@ The fifth homework assignment builds upon the solid foundation of previous proje
 
 - Implements ![Jest](https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white) testing to ensure the robustness of the login functionality.
 - Unit tests are created to validate the authentication system, enhancing the overall reliability of the application.
+- Run tests using `npm run test` script defined in the package.json file.
 
 ## Technologies Used
 
